@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="single.css">
+    <title>Patient Data Form</title>
+</head>
+    <body>
+        <div class='signup-container'>
+            <div class='left-container'>
+              <h1>
+                <i class='fas fa-paw'></i>
+                HOPE
+              </h1>
+              <div class='logo'>
+                <img src='img/logo.png'>
+              </div>
+            </div>
+            <div class='right-container'>
+              <header>
+                <h1>Register Your Patient</h1>
+                <div class='set'>
+                  <div class='p-name'>
+                    <label for='p-name'>Name</label>
+                    <input id='p-name' placeholder="Patient's name" type='text'>
+                  </div>
+                  <div class='p-photo'>
+                    <button id='p-upload'>
+                      <i class='fas fa-camera-retro'></i>
+                    </button>
+                    <label for='p-upload'>Upload a photo</label>
+                  </div>
+                </div>
+                <div class='set'>
+                  <div class='p-email'>
+                    <label for='p-email'>Email</label>
+                    <input id='p-email' placeholder="Patient's-email" type='text'>
+                  </div>
+                  <div class='p-birthday'>
+                    <label for='p-birthday'>D.O.B</label>
+                    <input id='p-birthday' placeholder='MM/DD/YYYY' type='text'>
+                  </div>
+                </div>
+                <div class='set'>
+                  <div class='p-gender'>
+                    <label for='p-gender-female'>Gender</label>
+                    <div class='radio-container'>
+                      <input checked='' id='p-gender-female' name='p-gender' type='radio' value='female'>
+                      <label for='p-gender-female'>Female</label>
+                      <input id='p-gender-male' name='p-gender' type='radio' value='male'>
+                      <label for='p-gender-male'>Male</label>
+                    </div>
+                  </div>
+                  <div class='p-type'>
+                    <label for='p-type-on'>Patient</label>
+                    <div class='radio-container'>
+                      <input checked='' id='p-type-on' name='p-on' type='radio' value='new'>
+                      <label for='p-type-on'>New</label>
+                      <input id='p-type-no' name='p-on' type='radio' value='old'>
+                      <label for='p-type-no'>Old</label>
+                    </div>
+                  </div>
+                </div>
+                <div class='p-weight'>
+                  <label for='p-weight-0-25'>Weight</label>
+                  <div class='radio-container'>
+                    <input checked='' id='p-weight-0-25' name='p-weight' type='radio' value='0-25'>
+                    <label for='p-weight-0-25'>0-25 kg</label>
+                    <input id='p-weight-25-50' name='p-weight' type='radio' value='25-50'>
+                    <label for='p-weight-25-50'>25-50 kg</label>
+                    <input id='p-weight-50-100' name='p-weight' type='radio' value='50-100'>
+                    <label for='p-weight-50-100'>50-100 kg</label>
+                    <input id='p-weight-100-plus' name='p-weight' type='radio' value='100+'>
+                    <label for='p-weight-100-plus'>100+ kg</label>
+                  </div>
+                </div>
+              </header>
+              <footer>
+                <div class='set'>
+                  <button id='back'>Back</button>
+                  <button id='next'>Next</button>
+                </div>
+              </footer>
+            </div>
+          </div>
+    </body>
+    </html>          
